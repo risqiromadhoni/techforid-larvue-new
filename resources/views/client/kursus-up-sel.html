@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Techfor | Shopping Bag</title>
+
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+  </head>
+<body>
+  <header class="menu" id="myHeader">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container menu__head">
+        <a class="navbar-brand" href="index.html"><img src="assets/img/footer_logo.png" alt="brand logo" class="img-fluid"/></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-th" aria-hidden="true"></i> Categories</a>
+              <div class="dropdown-menu" role="menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-submenu">
+                  <a href="#" class="dropdown-item" data-toggle="dropdown"><img src="assets/img/icon/menu_development.png" alt="menu icon" class="img-fluid icon-menu">Development <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="#">All Developmen</a></li>
+                    <li class="dropdown-item"><a href="#">Web Development</a></li>
+                    <li class="dropdown-item"><a href="#">Mobile Apps</a></li>
+                    <li class="dropdown-item"><a href="#">Programming Languages</a></li>
+                    <li class="dropdown-item"><a href="#">Game Development</a></li>
+                    <li class="dropdown-item"><a href="#">Databases</a></li>
+                    <li class="dropdown-item"><a href="#">Software Testing</a></li>
+                    <li class="dropdown-item"><a href="#">Software Engineering</a></li>
+                    <li class="dropdown-item"><a href="#">Development Tools</a></li>
+                    <li class="dropdown-item"><a href="#">E-Commerce</a></li>
+                  </ul>
+                </div>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_marketing.png" alt="menu icon" class="img-fluid icon-menu">Business<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_it.png" alt="menu icon" class="img-fluid icon-menu">IT & Software<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_office.png" alt="menu icon" class="img-fluid icon-menu">Office Productivity<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_self-development.png" alt="menu icon" class="img-fluid icon-menu">Personal Development<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_design.png" alt="menu icon" class="img-fluid icon-menu">Design<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_marketing.png" alt="menu icon" class="img-fluid icon-menu">Marketing<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_lifestyle.png" alt="menu icon" class="img-fluid icon-menu">Lifestyle<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_photography.png" alt="menu icon" class="img-fluid icon-menu">Photography<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_healty.png" alt="menu icon" class="img-fluid icon-menu">Health & Fitness<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_teacher.png" alt="menu icon" class="img-fluid icon-menu">Teacher Training<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_music.png" alt="menu icon" class="img-fluid icon-menu">Music<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_academics.png" alt="menu icon" class="img-fluid icon-menu">Academics<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_language.png" alt="menu icon" class="img-fluid icon-menu">Language<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                <a href="#" class="dropdown-item"><img src="assets/img/icon/menu_test-prep.png" alt="menu icon" class="img-fluid icon-menu">Test Prep<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input type="text" class="form-control mr-sm-2" placeholder="Search for Courses...">
+              <button type="submit" class="btn btn-outline-success my-2 my-sm-0"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+          <ul class="nav navbar-nav navbar-right font-thin">
+            <li class="nav-item notification"><a href="#"><i class="fa fa-envelope-o icon" aria-hidden="true"></i><span class="notif">1</span></a></li>
+            <li class="nav-item dropdown notification">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart icon" aria-hidden="true"></i><span class="notif">2</span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">
+                    <div class="box-dropdown">
+                      <div class="product__image">
+                        <img src="assets/img/product1.jpg" class="img-fluid">
+                      </div>
+                      <div class="box__desc">
+                        <p class="title">Belajar Design Grafis...</p>
+                        <p class="author">By: Baba Studio</p>
+                        <p class="price"><span class="rp">Rp. 500Rb</span> <span class="discount">Rp. 650Rb</span></p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="box-dropdown">
+                      <div class="product__image">
+                        <img src="assets/img/product1.jpg" class="img-fluid">
+                      </div>
+                      <div class="box__desc">
+                        <p class="title">Cara mudah membuat...</p>
+                        <p class="author">By: Baba Studio</p>
+                        <p class="price"><span class="rp">Rp. 500Rb</span> <span class="discount">Rp. 650Rb</span></p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="submit__product">
+                  <a href="#">
+                    <p class="submit-price">Total: <strong>Rp. 1Jt</strong> <span class="discount">Rp. 650Rb</span></p>
+                    <button type="button" name="button" class="submit-cart">GO TO CART</button>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown notification">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bell-o icon" aria-hidden="true"></i><span class="notif">3</span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">
+                    <div class="box-dropdown">
+                      <div class="product__image">
+                        <div class="date__notif">
+                          <span class="notif__date">5</span>
+                          <span class="notif__month">JAN</span>
+                        </div>
+                      </div>
+                      <div class="box__desc">
+                        <p class="title date">List of selected candidates <br>for the post of skilled<br> artisans (Welder)-Mail...</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="box-dropdown">
+                      <div class="product__image">
+                        <div class="date__notif">
+                          <span class="notif__date">5</span>
+                          <span class="notif__month">JAN</span>
+                        </div>
+                      </div>
+                      <div class="box__desc">
+                        <p class="title date">Calling for<br> Options/preferences of<br> Divisions/Units form selected...</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="box-dropdown">
+                      <div class="product__image">
+                        <div class="date__notif">
+                          <span class="notif__date">5</span>
+                          <span class="notif__month">JAN</span>
+                        </div>
+                      </div>
+                      <div class="box__desc">
+                        <p class="title date">List of selected candidates <br>for the post of skilled<br> artisans (Welder)-Mail...</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="submit__product notif">
+                  <a href="pengumuman.html">SEE ALL <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item user-info">
+              <div class="user-log">
+                <div class="user__photo">
+                  <img src="assets/img/user.jpg" alt="pprofile photo" class="img-fluid rounded-circle">
+                </div>
+                <div class="user__info">
+                  <span class="name">Nama Saya</span>
+                  <span class="level">Level</span>
+                </div>
+                <div class="user__caret">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="#">Log Out</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="detail-courses shopping-cart">
+    <div class="nav-cart">
+      <div class="container">
+        <ul class="detail__title">
+          <li><a href="index.html"><span class="info"><ion-icon name="arrow-back"></ion-icon> Home</a></span></li>
+          <li><a href="Shopping-bag.html">Kursus Up Sel</a></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="all-course">
+      <div class="breadcrumb">
+        <div class="container">
+          <h2>Shopping Bag</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sopping-cart inner-content">
+    <div class="container">
+      <ul class="step">
+        <li class="step-1 done"><i class="fa fa-check" aria-hidden="true"></i> <span class="text">Select Course</span></li>
+        <li class="step-2 done"><i class="fa fa-check" aria-hidden="true"></i> <span class="text">Login</span></li>
+        <li class="step-3 process"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="text">Review</span></li>
+        <li class="step-4"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="text">Checkout</span></li>
+        <li class="step-5"><i class="fa fa-credit-card" aria-hidden="true"></i> <span class="text">Payment</span></li>
+      </ul>
+
+      <div class="top-cols-wrapper">
+        <div class="top">
+          <div class="ico"><img src="assets/img/ico-timeline.png" alt="" class="img-responsive"></div>
+          <div class="title">Pembelian hampir selesai</div>
+          <div class="tagline">Lanjutkan Pembayaran</div>
+        </div>
+      </div>
+
+      <div class="content-columns-wrapper"> 
+        <div class="row"> 
+            <div class="col-md-5 col-12"> 
+                <div class="blue-box">
+                    <div class="row"> 
+                        <div class="col-8">
+                            <div class="title"> Real Time Instruktur Suport</div>
+                            <div class="desc">Dengan paket chating Anda dapat beertanya atau berkonsultasi secara realtime dengan instruktur, semua pertanyaan Anda terkait materi yang di pelajari langsung di jawab secara realtime</div>
+                        </div>
+                        <div class="col-4 img-wrapper">
+                          <div class="img"><img src="assets/img/img-monitor.png" alt="" class="img-responsive"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <select name="timezones" id="timezones" class="col-lg-9 col-md-8 col-12 form-control">
+                        <option value="1">Basic 3 bulan  +Rp 199.000</option>
+                        <option value="2">Basic 6 bulan  +Rp 299.000</option>
+                        <option value="3">Basic 9 bulan  +Rp 399.000</option>
+                      </select>
+                      <div class="btn-act col-lg-3 col-md-4 col-12">
+                        <ul>
+                          <li><a href="#"><img src="assets/img/btn-yes.png" alt="" class="img-responsive"></a></li>
+                          <li><a href="#"><img src="assets/img/btn-close.png" alt="" class="img-responsive"></a></li>
+                        </ul>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6 col-12">
+              <div class="right-col-txt">
+                <div class="title">Keuntungan menggunakan Real Time Instruktur Suport</div>
+                <div class="list">
+                  <ul>
+                    <li>Bisa bertanya langsung ke Instruktur</li>
+                    <li>Ada kesulitan bisa langsung di remot dengan timeviwer oleh intruktur kami</li>
+                    <li>Akan di bimbing ddari setiap materi yang di pelajari</li>
+                    <li>Instruktur yang membimbing berpengalaman dan sudah memiliki sertifikat internasional</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <div class="table__cart">
+            <h5>2 Courses in Cart</h5>
+            <div class="table-responsive-xl">
+              <table class="table table-hover">
+                <tr>
+                  <td class="image-product"><img src="assets/img/cart1.jpg" alt="" class="img-fluid"></td>
+                  <td class="title"><span class="title">Belajar Design Grafis dengan Adobe InDesign</span> <span class="author">By : Babastudio</span></td>
+                  <td class="price"><span class="strong">Rp. 500Rb</span> <span class="discount">Rp. 650Rb</span></td>
+                  <td class="status">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1"></label>
+                    </div>
+                  </td>
+                  <td class="delete-item"><a href="#delete"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                </tr>
+                <tr>
+                  <td class="image-product"><img src="assets/img/list_content_materi.jpg" alt="" class="img-fluid"></td>
+                  <td class="title"><span class="title">Cara mudah membuat WordPress</span> <span class="author">By : Babastudio</span></td>
+                  <td class="price"><span class="strong">Rp. 500Rb</span> <span class="discount">Rp. 650Rb</span></td>
+                  <td class="status">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck2">
+                      <label class="custom-control-label" for="customCheck2"></label>
+                    </div>
+                  </td>
+                  <td class="delete-item"><a href="#delete"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="table__cart">
+            <h5>Total</h5>
+          </div>
+          <div class="checkout__box">
+            <p><span class="total-price">Rp. 1.000.000,-</span> <span class="discount">Rp. 300rb</span> <span class="percent">10% off</span></p>
+            <button type="submit" name="button" class="btn btn-blue">CHECKOUT</button>
+          </div>
+          <div class="coupon__box">
+            <form class="" action="shopping-bag.html" method="post">
+              <div class="form-group">
+                <label for="coupon">Have coupon? Entry your coupon here</label>
+                <input type="text" class="form-control" id="coupon" placeholder="Enter a coupon code...">
+                <button type="submit" name="button" class="btn btn-blue">Apply</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-section shopping-cart">
+    <div class="container">
+      <div class="slider__content">
+        <div class="slider__title">
+          <h4>You Might Also Like</h4>
+        </div>
+        <div class="slider__item">
+          <div id="slider__item_list" class="slider-class">
+            <div class="owl-carousel slider__low_item2 owl-theme">
+              <div class="item">
+                <a href="detail-kursus.html">
+                  <div class="slider__image">
+                    <img src="assets/img/slide_content1.jpg" alt="slider" class="img-fluid">
+                    <span class="label best_seller">BEST SELLER</span>
+                  </div>
+                  <div class="slider__description">
+                    <p class="time"><span class="glyphicon glyphicon-time"></span>  72 minute</p>
+                    <p class="title">Advanced CSS and Sass:Flexbox, Grid, Animation...</p>
+                    <p class="text">Jonas Schemedtmann</p>
+                    <div class="rating">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <span class="small-rating">4.8(4,491)</span>
+                    <div class="slider__submit">
+                      <h5 class="price">Rp. 45rb</h5>
+                      <a href="detail-kursus.html" class="button btn">GET COURSE</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="detail-kursus.html">
+                  <div class="slider__image">
+                    <img src="assets/img/slide_content2.jpg" alt="slider" class="img-fluid">
+                    <span class="label hot_news">HOT & NEWS</span>
+                  </div>
+                  <div class="slider__description">
+                    <p class="time"><span class="glyphicon glyphicon-time"></span>  72 minute</p>
+                    <p class="title">Advanced CSS and Sass:Flexbox, Grid, Animation...</p>
+                    <p class="text">Jonas Schemedtmann</p>
+                    <div class="rating">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <span class="small-rating">4.8(4,491)</span>
+                    <div class="slider__submit">
+                      <h5 class="price">Rp. 45rb</h5>
+                      <a href="detail-kursus.html" class="button btn">GET COURSE</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="detail-kursus.html">
+                  <div class="slider__image">
+                    <img src="assets/img/slide_content1.jpg" alt="slider" class="img-fluid">
+                    <span class="label best_seller">BEST SELLER</span>
+                  </div>
+                  <div class="slider__description">
+                    <p class="time"><span class="glyphicon glyphicon-time"></span>  72 minute</p>
+                    <p class="title">Advanced CSS and Sass:Flexbox, Grid, Animation...</p>
+                    <p class="text">Jonas Schemedtmann</p>
+                    <div class="rating">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <span class="small-rating">4.8(4,491)</span>
+                    <div class="slider__submit">
+                      <h5 class="price">Rp. 45rb</h5>
+                      <a href="detail-kursus.html" class="button btn">GET COURSE</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="detail-kursus.html">
+                  <div class="slider__image">
+                    <img src="assets/img/slide_content4.jpg" alt="slider" class="img-fluid">
+                    <span class="label new_course">NEW COURSE</span>
+                  </div>
+                  <div class="slider__description">
+                    <p class="time"><span class="glyphicon glyphicon-time"></span>  72 minute</p>
+                    <p class="title">Advanced CSS and Sass:Flexbox, Grid, Animation...</p>
+                    <p class="text">Jonas Schemedtmann</p>
+                    <div class="rating">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <span class="small-rating">4.8(4,491)</span>
+                    <div class="slider__submit">
+                      <h5 class="price">Rp. 45rb</h5>
+                      <a href="detail-kursus.html" class="button btn">GET COURSE</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="detail-kursus.html">
+                  <div class="slider__image">
+                    <img src="assets/img/slide_content2.jpg" alt="slider" class="img-fluid">
+                    <span class="label hot_news">HOT & NEWS</span>
+                  </div>
+                  <div class="slider__description">
+                    <p class="time"><span class="glyphicon glyphicon-time"></span>  72 minute</p>
+                    <p class="title">Advanced CSS and Sass:Flexbox, Grid, Animation...</p>
+                    <p class="text">Jonas Schemedtmann</p>
+                    <div class="rating">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <span class="small-rating">4.8(4,491)</span>
+                    <div class="slider__submit">
+                      <h5 class="price">Rp. 45rb</h5>
+                      <a href="detail-kursus.html" class="button btn">GET COURSE</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-5 col-xs-12">
+          <div class="widget">
+            <div class="widget__title">
+              <a href="index.html">
+                <img src="assets/img/footer_logo.png" alt="vector logo" class="img-responsive">
+              </a>
+            </div>
+            <div class="widget__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-12">
+          <div class="widget">
+            <div class="widget__title">
+              <h3>About</h3>
+            </div>
+            <div class="widget__description">
+              <ul>
+                <li><a href="#">Kupon</a></li>
+                <li><a href="#">Affiliasi</a></li>
+                <li><a href="#">Kursus</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-12">
+          <div class="widget">
+            <div class="widget__title">
+              <h3>Customer Service</h3>
+            </div>
+            <div class="widget__description">
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="widget">
+            <div class="widget__title">
+              <h3>Subscribe</h3>
+            </div>
+            <div class="widget__description">
+              <p>Subscribe to our Newsletter</p>
+              <form class="form-inline" action="index.html" method="post">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn btn-default btn-plane-send"><i class="icon ion-md-paper-plane"></i></button>
+              </form>
+              <p>Connect with us</p>
+              <ul class="media">
+                <li><a href="#facebook" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#twitter" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#gplus" class="gplus"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="copyright__text text-center">
+          <p>Copyright @2018 <a href="index.html">techfor.id</a>, All right reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<!-- Video Modal -->
+<div class="modal fade video" id="videoPreview" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><span class="blue">Course Preview:</span> Learn HTML5 Programming From Scratch</h4>
+      </div>
+      <div class="modal-body">
+        <div class="video">
+          <iframe width="100%" height="341" src="https://www.youtube.com/embed/8eDuupJ9Uus?autoplay=0&amp;loop=0&amp;showinfo=0&amp;theme=dark&amp;color=red&amp;controls=1&amp;modestbranding=0&amp;start=0&amp;fs=1&amp;iv_load_policy=1&amp;wmode=transparent&amp;rel=1" frameborder="0" allow="autoplay; encrypted-media" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <div class="list_video">
+          <h3 class="title">Free sample videos:</h3>
+          <div class="list__videos">
+            <ul>
+              <li>
+                <ul class="inner__list">
+                  <li class="vid">
+                    <iframe width="100%" height="101" src="https://www.youtube.com/embed/8eDuupJ9Uus?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </li>
+                  <li class="info__video">
+                    <p><ion-icon name="play-circle"></ion-icon> Learn HTML5 Programming From Scratch</p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="inner__list">
+                  <li class="vid">
+                    <iframe width="100%" height="101" src="https://www.youtube.com/embed/8eDuupJ9Uus?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  </li>
+                  <li class="info__video">
+                    <p><ion-icon name="play-circle"></ion-icon> Basic of Facebook Ads</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade video member" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sign Up and Start Learning!</h4>
+      </div>
+      <div class="modal-body">
+        <div class="barcode">
+          <img src="assets/img/qrcode.jpg" alt="" class="img-responsive">
+        </div>
+        <div class="member_info">
+          <h1>Member Login</h1>
+          <ol>
+            <li>Buka aplikasi techfor.id di handphone Anda.</li>
+            <li>Klik <strong>Menu</strong>           atau <strong>Pengaturan</strong>           dan pilih <strong>Scan Barcode Login</strong></li>
+            <li>Arahkan handphone Anda ke layar untuk memindai kode</li>
+          </ol>
+          <a href="#">Perlu bantuan untuk memulai?</a>
+        </div>
+        <div class="footer__info">
+          <a href="#">Create your Account <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
+
+<script type="text/javascript">
+$('.owl-carousel.slider__low_item2').owlCarousel({
+    loop:true,
+    margin:25,
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:true
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:true
+        }
+    }
+})
+</script>
